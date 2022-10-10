@@ -6,7 +6,7 @@
 
 Abstracting the blockchain complexity away, and combining the power of Elixir and Stellar, Mintacoin provides a simple and reliable infrastructure layer to mint crypto assets and process payments with them.
 
-Reach the power of blockchain with just an API integration!.
+Reach the power of blockchain with just an API integration!
 
 ## Development
 
