@@ -1,48 +1,23 @@
-# Mintacoin
+# API Reference
 
-![banner][banner-img]
+Dive into the specifics of each API endpoint by checking out our complete documentation.
 
-[**Mintacoin**][www] is a minimalist and open-source API that abstracts the blockchain complexity and provides a simple and reliable infrastructure layer to mint your crypto assets and process payments with them.
+## Pets
 
-Abstracting the blockchain complexity away, and combining the power of Elixir and Stellar, Mintacoin provides a simple and reliable infrastructure layer to mint crypto assets and process payments with them.
+All the methods associated with `CRUD`ing some pets. Which isn't as weird as it sounds:
 
-Reach the power of blockchain with just an API integration!.
+{% content-ref url="reference/api-reference/pets.md" %}
+[pets.md](reference/api-reference/pets.md)
+{% endcontent-ref %}
 
-## Development
+## Users
 
-To start your Phoenix server:
+Everything related to users:
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+{% content-ref url="reference/api-reference/users.md" %}
+[users.md](reference/api-reference/users.md)
+{% endcontent-ref %}
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Run the tests with `mix test`.
-
-## Changelog
-
-Features and bug fixes are listed in the [CHANGELOG][changelog] file.
-
-## Code of conduct
-
-We welcome everyone to contribute. Make sure you have read the [CODE_OF_CONDUCT][coc] before.
-
-## Contributing
-
-For information on how to contribute, please refer to our [CONTRIBUTING][contributing] guide.
-
-## License
-
-This library is licensed under an MIT license. See [LICENSE][license] for details.
-
-## Acknowledgements
-
-Made with 💙 by [kommitters Open Source](https://kommit.co)
-
-[license]: https://github.com/kommitters/mintacoin/blob/main/LICENSE
-[coc]: https://github.com/kommitters/mintacoin/blob/main/CODE_OF_CONDUCT.md
-[changelog]: https://github.com/kommitters/mintacoin/blob/main/CHANGELOG.md
-[contributing]: https://github.com/kommitters/mintacoin/blob/main/CONTRIBUTING.md
-[www]: https://mintacoin.co
-[banner-img]: https://user-images.githubusercontent.com/1649973/170068587-1b4c1b0d-9b48-46d1-9aed-f99d1b2b84f8.png
+{% hint style="info" %}
+**Good to know:** Using the 'Page Link' block lets you link directly to a page. If this page's name, URL or parent location changes, the reference will be kept up to date. You can also mention a page – like [pets.md](reference/api-reference/pets.md "mention") – if you don't want a block-level link.
+{% endhint %}
